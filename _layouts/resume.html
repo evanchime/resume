@@ -69,20 +69,25 @@
 
       {% if site.resume_section_education %}
       <!-- begin Education -->
-      <section class="content-section">
-        <header class="section-header">
-          <h2>Education</h2>
-        </header>
+        <section class="content-section">
+          <header class="section-header">
+            <h2>Education</h2>
+          </header>
 
-        {% for education in site.data.education %}
-        <div class="resume-item" itemscope itemprop="alumniOf" itemtype="http://schema.org/CollegeOrUniversity">
-          <h3 class="resume-item-title" itemprop="name">{{ education.uni }}</h3>
-          <h4 class="resume-item-details group" itemprop="description">{{ education.degree }} &bull; {{ education.year }}</h4>
-          <h5 class="resume-item-details award-title" itemprop="description">{{ education.awards }}</h5>
-          <p class="resume-item-copy">{{ education.summary }}</p>
-        </div>
-        {% endfor %}
-      </section>
+          {% for education in site.data.education %}
+          <div class="resume-item" itemscope itemprop="alumniOf" itemtype="http://schema.org/CollegeOrUniversity">
+            <h3 class="resume-item-title" itemprop="name">{{ education.uni }}</h3>
+            <h4 class="resume-item-details group" itemprop="description">{{ education.degree }} &bull; {{ education.year }}</h4>
+            {% if education.awards %}
+              <h5 class="resume-item-details award-title" itemprop="description">{{ education.awards }}</h5>
+            {% endif %}
+            {% if education.summary %}
+              <p class="resume-item-copy">{{ education.summary }}</p>
+            {% endif %}
+          </div>
+          {% endfor %}
+
+        </section>
       <!-- end Education -->
       {% endif %}
 
@@ -97,7 +102,9 @@
         {% for project in site.data.projects %}
         <div class="resume-item" itemscope itemtype="http://schema.org/CreativeWork">
           <meta itemprop="creator" content="{{ site.resume_name }}" itemtype="http://schema.org/Person" />
-          <h3 class="resume-item-title" itemprop="name"><a href="{{ project.url }}" itemprop="url">{{ project.project }}</a></h3>
+          <h3 class="resume-item-title" itemprop="name">
+            <a href="{{ project.url }}" itemprop="url"><i class="fa fa-external-link" aria-hidden="true"></i>{{ project.project }}</a>
+          </h3>
           <p class="resume-item-copy">{{ project.description }}</p>
         </div>
         {% endfor %}
@@ -221,8 +228,7 @@
       {% endif %}
 
       <footer class="page-footer">
-        <p class="footer-line">Made by <a href="http://twitter.com/jglovier">@jglovier</a>. Fork me on <a href="https://github.com/jglovier/resume-template">GitHub</a>.</p>
-        <p class="footer-line">If this is your live resume, you can modify or remove this part. ;-)</p>
+        <p class="footer-line">Made by <a href="https://www.linkedin.com/in/evanchime">@evanchime</a>. Fork me on <a href="https://github.com/evanchime/resume">GitHub</a>.</p>
       </footer>
 
     </div>
