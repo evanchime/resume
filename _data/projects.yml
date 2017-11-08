@@ -2,11 +2,17 @@
 # uncomment the urls if you wish to display them, and add your own URL
 
 # donutfinder.io
+<<<<<<< HEAD
 - project: donutfinder.io
   role: Founder & Primary Developer
   duration: 2012 &mdash; Present
   # url: "#"
   description: Donut Locator is an open source node/ember app that lets users find donuts within a defined radius from their home.
+=======
+- project: Local Library website written in Express (Node)
+  url: "https://mylocallibrary.herokuapp.com/catalog"
+  description: The purpose of the website is to provide an online catalog for a small local library, where users can browse available books and manage their accounts. It store's information about books, copies of books, authors and other key information. It doesn't however store information about other items a library might lend, or provide the infrastructure needed to support multiple library sites or other "big library" features.
+>>>>>>> gh-pages
 
 #Springfield Donut Eater's User Group
 - project: Springfield Donut Eater's User Group
