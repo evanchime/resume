@@ -51,10 +51,6 @@ resume_print_social_links:      true
 # Design settings
 resume_theme:                   default
 
-#
-collections:
-- experience_summary
-
 
 # Note: when editing locally, remember to restart
 # your Jekyll server when you edit this file. Changes
