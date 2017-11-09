@@ -3,6 +3,9 @@
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> b1a9e2c0c3377f39412c728627f0bcfee0838612
 # donutfinder.io
 <<<<<<< HEAD
 - project: donutfinder.io
@@ -14,9 +17,12 @@
 =======
 # Local Library website written in Express (Node)
 >>>>>>> gh-pages
+<<<<<<< HEAD
 =======
 # donutfinder.io
 >>>>>>> parent of 7af3b04... Modified config.yml, data/education.yml, data/interests.yml, data/projects.yml, data/skills.yml, includes/head.html and layouts/resume.html
+=======
+>>>>>>> b1a9e2c0c3377f39412c728627f0bcfee0838612
 - project: Local Library website written in Express (Node)
   url: "https://mylocallibrary.herokuapp.com/catalog"
   description: The purpose of the website is to provide an online catalog for a small local library, where users can browse available books and manage their accounts. It store's information about books, copies of books, authors and other key information. It doesn't however store information about other items a library might lend, or provide the infrastructure needed to support multiple library sites or other "big library" features.
