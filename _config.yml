@@ -10,15 +10,6 @@ sass:
 
 # Resume settings
 resume_avatar:                  "true"
-<<<<<<< HEAD
-resume_name:                    "Homer J. Simpson"
-resume_title:                   "Nuclear Safety Inspector"
-resume_contact_email:           "homerjsimpson@youremailaddress.com"
-resume_contact_telephone:       "555-7334"
-resume_contact_address:         "742 Evergreen Terrace, Springfield"
-resume_header_contact_info: "742 Evergreen Terrace, Springfield | 555-7334 | homerjsimpson@youremailaddress.com"
-resume_header_intro: "<p>This is the executive summary. You should write a few brief, concise, and meaningful sentences about yourself from a professional context, and your immediate career goals. Make the length appropriate for your needs, but K.I.S.S.</p>"
-=======
 resume_name:                    "Evan Chime"
 resume_title:                   "Software Engineer"
 resume_contact_email:           "evan@softgorithm.com"
@@ -27,7 +18,6 @@ resume_contact_address:         "50 Kashgar Road SE18 1HS London UK"
 resume_header_contact_info: "50 Kashgar Road SE18 1HS London UK | +44 740363 8832 | evan@softgorithm.com"
 resume_header_intro: "<p>Software Engineer with 5+ years experience focused on supporting large-scale software systems. Excellent experience in analysis, design, development, testing, and implementation of various internet-based applications. Expert in a variety of platforms, languages, and embedded systems. Adept at going beyond that of an engineer to that of a user advocate, designer, developer, and tester. Supportive and enthusiastic team player dedicated to streamlining processes and efficiently resolving project issues.
 </p>"
->>>>>>> gh-pages
 
 # use "yes" to display the email contact button,
 # "no" to display an "I'm not looking for work" message,
@@ -41,23 +31,14 @@ resume_section_experience:      true
 resume_section_education:       true
 resume_section_projects:        true
 resume_section_skills:          true
-resume_section_recognition:     true
-resume_section_links:           true
-resume_section_associations:    true
+#resume_section_recognition:     true
+#resume_section_links:           true
+#resume_section_associations:    true
 # resume_section_interests:       true
 
 # Resume social links
 # uncomment the options you wish to display, and add your own URL
 resume_social_links:
-<<<<<<< HEAD
-  resume_github_url:            "https://github.com/jglovier/resume-template"
-  resume_twitter_url:           "http://twitter.com/jglovier"
-  resume_dribbble_url:          "https://dribbble.com/jag"
-  # resume_facebook_url:          "insert Facebook URL here"
-  resume_linkedin_url:          "https://www.linkedin.com/in/joelglovier"
-  # resume_instagram_url:         "insert your Instagram URL here"
-  resume_website_url:           "http://joelglovier.com"
-=======
   resume_github_url:            "https://github.com/evanchime"
   #resume_twitter_url:           "http://twitter.com/jglovier"
   #resume_dribbble_url:          "https://dribbble.com/jag"
@@ -65,16 +46,12 @@ resume_social_links:
   resume_linkedin_url:          "https://www.linkedin.com/in/evanchime"
   # resume_instagram_url:         "insert your Instagram URL here"
   resume_website_url:           "http://evanchime.github.io"
->>>>>>> gh-pages
+  
 resume_print_social_links:      true
 
 # Design settings
 resume_theme:                   default
 
-<<<<<<< HEAD
-=======
-
->>>>>>> gh-pages
 # Note: when editing locally, remember to restart
 # your Jekyll server when you edit this file. Changes
 # to _config.yml are only recognized when the server starts
