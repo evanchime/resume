@@ -1,11 +1,6 @@
 # Site settings
-<<<<<<< HEAD
-title: "Jekyll Resume Template"
-description: "A resume template for Jekyll and GitHub Pages sites."
-=======
 title: "My online resume."
 description: "My online resume."
->>>>>>> gh-pages
 
 # Build settings
 markdown: kramdown
