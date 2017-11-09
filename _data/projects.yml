@@ -1,21 +1,30 @@
 # Projects
 # uncomment the urls if you wish to display them, and add your own URL
 
+<<<<<<< HEAD
+<<<<<<< HEAD
+# donutfinder.io
+<<<<<<< HEAD
+- project: donutfinder.io
+  role: Founder & Primary Developer
+  duration: 2012 &mdash; Present
+  # url: "#"
+  description: Donut Locator is an open source node/ember app that lets users find donuts within a defined radius from their home.
+=======
+=======
 # Local Library website written in Express (Node)
+>>>>>>> gh-pages
+=======
+# donutfinder.io
+>>>>>>> parent of 7af3b04... Modified config.yml, data/education.yml, data/interests.yml, data/projects.yml, data/skills.yml, includes/head.html and layouts/resume.html
 - project: Local Library website written in Express (Node)
   url: "https://mylocallibrary.herokuapp.com/catalog"
   description: The purpose of the website is to provide an online catalog for a small local library, where users can browse available books and manage their accounts. It store's information about books, copies of books, authors and other key information. It doesn't however store information about other items a library might lend, or provide the infrastructure needed to support multiple library sites or other "big library" features.
+>>>>>>> gh-pages
 
-#Image Search Abstraction Layer
-- project: Image Search Abstraction Layer
-  #role: Co-Founder & Organizer
-  #duration: 2007 &mdash; Present
-  url: "https://wheat-language.glitch.me/api/imagesearch/obama"
-  description: I can get the image URLs, thumbnail URLs, alt text and page URLs for a set of images relating to a given search string. I can paginate through the responses by adding a ?offset=2 parameter to the URL.
-
-#Image Search Abstraction Layer(Browse Recent Search Queries)
-- project: Image Search Abstraction Layer(Browse Recent Search Queries)
-  #role: Co-Founder & Organizer
-  #duration: 2007 &mdash; Present
-  url: "https://wheat-language.glitch.me/api/latest/imagesearch"
-  description: Part of the Image Search Abstraction Layer project. Get's a list of the most recently submitted image search strings. Displays a maximum of 10 recent searches chronologically
+#Springfield Donut Eater's User Group
+- project: Springfield Donut Eater's User Group
+  role: Co-Founder & Organizer
+  duration: 2007 &mdash; Present
+  # url: "#"
+  description: DEUG is a local monthly meetup in Springfield where we share all the latest tips and tricks for dat donut lifestyle. I organize the group, and typically eat most of the donuts.
