@@ -17,6 +17,13 @@
   url: "https://wheat-language.glitch.me/api/latest/imagesearch"
   description: Part of the Image Search Abstraction Layer project. Get's a list of the most recently submitted image search strings. Displays a maximum of 10 recent searches chronologically
 
+#Task List Manager
+- project: Task List Manager
+  #role: Co-Founder & Organizer
+  #duration: 2007 &mdash; Present
+  url: "https://metasklist.herokuapp.com/"
+  description: You can enter a particular task, delete a task and update a task, and all these operations will reflect in a database.
+
 #My personal portfolio
 - project: Personal Profile
   #role: Co-Founder & Organizer
