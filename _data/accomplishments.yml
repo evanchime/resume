@@ -1,0 +1,59 @@
+# Accomplishments
+#Accomplishment 1
+- summary:
+    <ul class="resume-item-list">
+        <li>Programmed a TM4C123  Cortex-M micro-controller in C. These are some of the things I was able to accomplish with the micro-controller
+          <ul>
+            <li>Implemented a real-time synchronization by designing a finite state machine controller. 
+              Using the microcontroller, the  finite state machine simulated a traffic control system in a 4-corner intersection, 
+              including sensors for cars travelling south and west, and sensor for pedestrians
+            </li>
+            <li>Implemented an Internet of Thing; extend the power of the microcontroller by adding a Booster Pack;  
+              connected to an access point that provided communication with the Internet; 
+              used a client-server protocol to collect weather information; 
+              deployed a client-server system that logged local information on a shared server
+            </li>
+            <li>Designed a distance meter. A linear slide potentiometer converted distance into resistance (0 ≤ R ≤ 10 kΩ). 
+              Software used a 12-bit Analog to Digital Converter(ADC) built into the microcontroller. 
+              The ADC was sampled at 40 Hz using SysTick interrupts. 
+              Wrote a C function that converted the ADC sample into distance, with units of 0.001 cm. 
+              The data stream was passed from an Interrupt Service Routine(ISR) into the main program using a mailbox, 
+              and the main program outputted the data on a display connected to a  
+              Universal asynchronous receiver-transmitter(UART).
+            </li>
+          </ul>
+        </li>
+    </ul>
+
+#Accomplishment 2
+- summary:
+    <ul class="resume-item-list">
+      <li>Using the MFC library, implemented dialog boxes, 
+        windows resources(icons, menus, cursors, bitmaps, string tables etc), 
+        windows controls (progress bars, buttons, boxes, scrool bars, tree control etc), 
+        network commuinications using windows sockets, .lib/.dll libraries, serialization, property sheets,
+        multithreading, manipulation of file systems, database access etc.
+      </li>
+    </ul>
+
+#Accomplishment 3
+- summary:
+    <ul class="resume-item-list">
+      <li>Using Win32 API, implemented dialog boxes, windows resources, windows controls, 
+        application that calculates the amount of overtime worked by an employee of a company in a payroll simulation,
+        application that simulates sales of items in a department store or any other store(applies the tax rate 
+        and present the total price to the customer) etc
+       </li>
+    </ul> 
+
+#Accomplishment 4
+- summary:
+    <ul class="resume-item-list">
+      <li>Built fullstack javascript applications using MongoDB, Express, Angular, Nodejs. 
+        Some of them are featured in the projects section below
+      </li>
+    </ul>
+
+
+      
+      
