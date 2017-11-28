@@ -66,6 +66,24 @@
       <!-- end Experience -->
       {% endif %}
 
+      {% if site.resume_section_accomplishments %}
+      <!-- begin Accomplishments -->
+      <section class="content-section">
+
+        <header class="section-header">
+          <h2>Accomplishments</h2>
+        </header>
+        <p>I have built a lot of applications, which is available at my GitHub url above. Some of them is summarized below</p>
+        {% for accomplishment in site.data.accomplishments %}
+        <div class="resume-item">
+          <p class="resume-item-copy">{{ accomplishment.summary }}</p>
+        </div>
+        {% endfor %}
+
+      </section>
+      <!-- end Accomplishments -->
+      {% endif %}
+
 
       {% if site.resume_section_education %}
       <!-- begin Education -->
