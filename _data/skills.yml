@@ -1,12 +1,13 @@
 # Skills
-# Design
-- skill: Design
-  description: Html5, Bootstrap, CSS3
 
 # Code
 - skill: Code
-  description: Javasript, C, C++, C#, MongoDB, Angular, Express.js, Node.js, Ionic Framework, JQuery, Jekyll, WPF, MFC, Win32 API 
+  description: C, C++, C#, Javasript, Python, MongoDB, Angular, Express.js, Node.js, Ionic Framework, JQuery, Jekyll, WPF, MFC, Win32 API 
 
 # Tools
 - skill: Tools
-  description: Git, Github, Vim, Visual Studio
+  description: Git, Unix, Oscilloscope, Logic Analyzer, Github, Vim, Visual Studio
+
+  # Design
+- skill: Design
+  description: Html5, Bootstrap, CSS3

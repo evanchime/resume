@@ -1,31 +1,85 @@
 # Jobs
-# Sunrise Senior Living
-- company: Sunrise Senior Living London, England
-  position: Health Care Assistant
-  duration: March, 2011 &mdash; August, 2014 
+
+# Softgorithm
+- company: Softgorithm London, England
+  position: Software Engineer
+  duration: March, 2013 &mdash; September, 2017 
   summary: 
     <ul class="resume-item-list">
-      <li>Worked in the health care industry as a carer/medication technician</li>
-      <li>From about 2012, started learning and practicing programming up to two hours daily</li>
+      <li>Programmed a TM4C123  Cortex-M micro-controller in C</li>
+      <li>
+        Implemented an Internet of Thing; extended the power of the microcontroller by adding a Booster
+        Pack;  connected to an access point that provided communication with the Internet; used a client-
+        server protocol to collect weather information; deployed a client-server system that logged local
+        information on a shared server
+      </li>
+      <li>
+        Implemented a real-time synchronization by designing a finite state machine controller. Using the
+        microcontroller, the  finite state machine simulated a traffic control system in a 4-corner intersection,
+        including sensors for cars travelling south and west, and a sensor for pedestrians
+      </li>
+      <li>Interfaced DC motors with Pulse Width Modulation PWM and also Stepper motors(for a robot car)</li>
+      <li>
+        Designed a distance meter. A linear slide potentiometer converted distance into resistance (0 ≤ R ≤ 10
+        kΩ). Software used a 12-bit Analog to Digital Converter(ADC) built into the microcontroller. The
+        ADC was sampled at 40 Hz using SysTick interrupts. Wrote a C function that converted the ADC
+        sample into distance, with units of 0.001 cm. The data stream was passed from an Interrupt Service
+        Routine(ISR) into the main program using a mailbox, and the main program outputted the data on a
+        display connected to a  Universal asynchronous receiver-transmitter(UART).
+      </li>
+      <li>
+        Sampling analogue signals using the ADC interface; development of an ADC device driver; used
+        ADCs for pressure, temperature, and humidity sensors;  the development of an interrupt-driven
+        real-time sampling device driver;  the development of a software system involving multiple files
+      </li> 
+      <li>
+        Implemented time delay functions. Designed software that converts numbers into ASCII strings and
+        displays the string on the display connected to UART0.
+      </li>
+      <li>
+        Designed and built a prototype simple pacemaker. The system will read from a switch, make
+        decisions, and outputs to an LED. Wrote subroutines that wait for the switch to be pressed, wait for
+        the switch to be released, and create an output pulse of fixed duration.
+      </li>
+      <li>
+        Built a switch interface that implements positive logic, and an LED interface that implements
+        positive logic.  Attached this switch and LED to a protoboard, and interface them to a TM4C123
+        microcontroller
+      </li>
+      <li>Worked closely with customers to efficiently resolve issues.</li>
+      <li>
+        Saved 8% on supply costs by working closely with suppliers to ensure that all components met
+        company quality standards.
+      </li>
     </ul>
 
-# Onye Rail Ltd
-- company: Onye Rail Ltd London, England
-  position: Trackman/Groundworker/Controller of Site safety
-  duration:  August, 2014 &mdash; January, 2016
+# Freelance
+- position: Freelance Software Engineer
+  duration: October, 2017 &mdash; Present
   summary: 
     <ul class="resume-item-list">
-      <li>Worked in the railway industry as a Trackman/Groundworker/Contoller of Site safety.</li>
-      <li>Practicing and learning programming up to two hours daily.</li>
+      <li>
+        Using the MFC library, implemented dialog boxes, windows resources(icons, menus, cursors, bitmaps,
+        string tables etc), windows controls (progress bars, buttons, boxes, scroll bars, tree control etc), network
+        communications using windows sockets, .lib/.dll libraries, serialization, property sheets, multithreading,
+        manipulation of file systems, database access etc for clients
+      </li>
+      <li>
+        Using Win32 API, implemented dialog boxes, windows resources, windows controls, application that
+        calculates the amount of overtime worked by an employee of a company in a payroll simulation,
+        application that simulates sales of items in a department store or any other store(applies the tax rate and
+        present the total price to the customer) etc for clients
+      </li>
+      <li>
+        Using the WPF UI framework, implemented a wide range of GUI elements; labels, textboxes,
+        treeviews, listviews, datagrid views, menus, dialogs, dispatcher timers, panels, speech
+        synthesizers/recognizers etc for clients
+      </li>
+      <li>
+        Built full-stack Javascript applications using MongoDB, Express, Angular, Nodejs for clients
+      </li>
     </ul>
 
-#
-- duration: January, 2016 &mdash; Present
-  summary: 
-    <ul class="resume-item-list">
-      <li>Learning and practicing programming exclusively, for up to nine hours daily.</li>
-      <li>Built lots of real-life applications.</li>
-    </ul>
 
 
 
