@@ -21,6 +21,19 @@
               and the main program outputted the data on a display connected to a  
               Universal asynchronous receiver-transmitter(UART).
             </li>
+            <li>
+              Interfaced DC motors with Pulse Width Modulation PWM and also Stepper motors(for a robot car)
+            </li>
+            <li>
+              Designed and built a prototype simple pacemaker. The system will read from a switch, 
+              make decisions, and outputs to an LED. Wrote subroutines that wait for the switch to be pressed, 
+              wait for the switch to be released, and create an output pulse of fixed duration
+            </li>
+            <li>
+              Built a switch interface that implements positive logic, 
+              and an LED interface that implements positive logic.  
+              Attached this switch and LED to a protoboard, and interface them a TM4C123 microcontroller
+            </li>
           </ul>
         </li>
     </ul>
